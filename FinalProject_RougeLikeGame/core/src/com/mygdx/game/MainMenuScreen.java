@@ -123,6 +123,7 @@ public class MainMenuScreen implements Screen {
     public void setPlayerImage(String side){
         if (side.equals("left")){
             temp--;
+            System.out.println("hello world");
         }else{
             temp++;
         }
